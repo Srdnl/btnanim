@@ -1,0 +1,38 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     
+ }
+
+ .btn{
+     width: 150px;
+     height: 40px;
+     border: none;
+     border-radius: 6%;
+     background: rgb(114, 114, 207);
+     color: white;
+ }
+ 
+ .btn:hover{
+     cursor: pointer;
+     animation: fade 0.3s linear;
+     animation-fill-mode: both;
+ }
+
+ @keyframes fade {
+     from {
+          background: rgb(114, 114, 207)
+     }
+   
+     to {
+          background: rgb(27, 27, 97)
+     }
+   }
